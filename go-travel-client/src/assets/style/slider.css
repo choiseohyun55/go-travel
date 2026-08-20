@@ -1,0 +1,16 @@
+/* 카드 슬라이더 스크롤바 숨기기위한 css */
+.cards {
+  overflow-x: auto; /* 가로 스크롤 */
+  scroll-behavior: smooth;
+
+  /* IE, Edge */
+  -ms-overflow-style: none;
+
+  /* Firefox */
+  scrollbar-width: none;
+}
+
+/* Chrome, Safari, Opera */
+.cards::-webkit-scrollbar {
+  display: none;
+}
